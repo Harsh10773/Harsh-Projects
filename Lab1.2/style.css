@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+}
+.login{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 50vh;
+    width: 25vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.box h1{
+    color: rgb(125, 84, 173);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.ins{
+    width: 270px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    background-color:antiquewhite;
+    border: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+  
+}
+
+
+button{
+    margin-top: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
